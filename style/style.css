@@ -1,0 +1,259 @@
+/*----------- 
+google font 
+-------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dancing+Script&family=Inter&family=Lobster&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+
+
+
+
+/* Top-banner */
+.top-banner {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    background-color: black;
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    align-content: center;
+    column-gap: 24px;
+    border-radius: 30px;
+
+
+}
+
+.player-info {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+.top-banner .player-info h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.top-banner .player-info p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.top-banner .player-info a {
+    padding: 16px 25px;
+    color: white;
+    background-color: #DD0000;
+    border-radius: 5px;
+    text-decoration: none;
+
+
+}
+
+.player-picture {
+    margin-top: 200px;
+
+}
+
+.player-picture img {
+    height: 100%;
+}
+
+/* mid-possition section */
+.mid-possition {
+    width: 1100px;
+    margin-top: 20px;
+    margin-left: 80px;
+    display: flex;
+    column-gap: 25px;
+
+}
+
+.match-details {
+    width: 25%;
+}
+
+.match {
+    background-color: black;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: row;
+    border-radius: 7px;
+}
+
+.match-details a {
+    background-color: white;
+    color: black;
+    margin: 15px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+#upcoming {
+    background-color: #DD0000;
+    color: white;
+}
+
+.player-detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 15px;
+
+}
+
+.player {
+
+    display: flex;
+    flex-direction: column;
+    border: .2px solid darkgray;
+    border-radius: 10px;
+}
+
+.player img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.player article {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+article a {
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+/* icon */
+.player article p img {
+    width: 10px;
+
+}
+
+.iconp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+.container h1 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+hr.one {
+
+    width: 60%;
+    border: .01px solid darkgray;
+
+}
+
+.menu {
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: darkgray;
+    padding: 80px 30px;
+
+}
+
+@media only screen and (max-width: 576px) {
+    .top-banner {
+        width: 100%;
+        margin-top: 1px;
+        margin-bottom: 5px;
+        margin-left: 8px;
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        align-content: center;
+        column-gap: 2px;
+        border-radius: 1px;
+    }
+
+
+    .player-info {
+        margin-top: px;
+        margin-left: 2px;
+
+    }
+
+    .player-picture {
+        margin-top: 20px;
+
+    }
+
+    .top-banner .player-info h1 {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .top-banner .player-info p {
+        color: white;
+        font-size: 8px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .mid-possition {
+        width: 100%;
+        margin-top: 4px;
+        margin-left: 1px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5px;
+
+    }
+
+    .match-details {
+        width: 100%;
+    }
+
+    .player-detail {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5px;
+
+    }
+
+    .player-picture {
+        margin-top: 0;
+
+    }
+
+}
